@@ -10,7 +10,7 @@
 ## Быстрый запуск на Linux
 
 Нужны Python 3.10+ с модулем venv, графическая сессия и доступ в интернет при установке.
-Распакуйте архив и откройте терминал в папке `lazyr-app`:
+Распакуйте архив и откройте терминал в папке `LazyR`:
 
 ```bash
 bash setup.sh
@@ -30,7 +30,7 @@ bash start.sh
 
 ```bash
 bash setup.sh --skip-models
-bash start.sh --models /полный/путь/к/старому/lazyr/models
+bash start.sh --models /полный/путь/к/старому/LazyR/models
 ```
 
 ## Функционал
@@ -133,7 +133,7 @@ python app.py --port 8877 --data-dir /путь/к/данным --models /пут�
 
 | Данные | Место |
 | --- | --- |
-| Linux | `$XDG_DATA_HOME/lazyr` или `~/.local/share/lazyr` |
+| Linux | `$XDG_DATA_HOME/LazyR` или `~/.local/share/LazyR` |
 | Windows | `%LOCALAPPDATA%/PageReader` |
 | macOS | `~/Library/Application Support/PageReader` |
 | Голосовые модели | `models/` рядом с `app.py` |
